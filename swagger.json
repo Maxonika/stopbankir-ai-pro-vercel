@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://YOUR-VERCEL-APP-NAME.vercel.app"
+      "url": "https://stopbankir-ai-pro-vercel.app"
     }
   ],
   "paths": {
