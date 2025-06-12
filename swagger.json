@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://stopbankir-ai-pro-vercel.vercel.app/api/.well-known/ai-plugin.json"
+      "url": "https://stopbankir-ai-pro-vercel.vercel.app/api"
     }
   ],
   "paths": {
