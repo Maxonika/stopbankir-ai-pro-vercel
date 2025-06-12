@@ -16,6 +16,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Health check для Vercel
+@app.api_route("/api/healthz", methods=["GET", "HEAD"])
+def healthz():
+    return Response(content='{"status": "ok"}', media_type="application/json")
+
+# Корневой endpoint → чтобы HEAD / и GET / давали 200 OK
 @app.api_route("/", methods=["GET", "HEAD"])
 def root():
     return Response(content='{"status": "ok"}', media_type="application/json")
@@ -49,5 +55,5 @@ def search_practice(req: SearchRequest):
         )
     ]
 
-# Final export for Vercel compatibility
+# Final export for Docker
 app = app
