@@ -48,3 +48,6 @@ def search_practice(req: SearchRequest):
             summary="Иск об оспаривании сделки признан обоснованным."
         )
     ]
+
+# Final export for Vercel compatibility
+app = app
