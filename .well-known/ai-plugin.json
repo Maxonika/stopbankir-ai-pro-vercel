@@ -5,7 +5,7 @@
   "description_for_model": "Actions for searching practice, checking deadlines, checking case status, counterparties, summarizing PDF, comparing positions and suggesting documents.",
   "api": {
     "type": "openapi",
-    "url": " https://stopbankir-ai-pro-vercel.app/api/swagger.json"
+   "url": "https://stopbankir-ai-pro-vercel.vercel.app/api/swagger.json"
   },
   "auth": {
     "type": "none"
